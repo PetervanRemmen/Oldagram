@@ -1,0 +1,91 @@
+html, body {
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    padding-top: 25px; 
+    background-color: #EDEDED;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+ 
+ /* first part of the site */
+ 
+.wrapper {
+    width: 375px;
+    height: 612px;
+    background-color: white;
+}
+
+header {
+    border-bottom: 1px solid #C6C6C6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.avatar {
+    width: 127px;
+    margin-left: 12px; 
+}
+
+.user-avatar, .artist-avatar {
+    width: 34px;  
+    height: 34px;  
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* second part: user info */
+
+.user-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 55px;
+}
+
+.name {
+    display: flex;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.city { 
+    display: flex;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.artist-picture {
+    width: 375px;
+}
+
+/* third part: icons, messages */
+
+.icon {
+    width: 25px;
+    padding: 7px;
+}
+
+.icon:hover,
+.icon:active {
+    opacity: 50%; 
+}
+
+.likes {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 10px
+}
+
+.message { 
+    font-size: 13px;
+    padding: 10px;
+    margin: 0;
+    font-weight: 400;
+}
+
+.user-name {
+    font-weight: 700;
+}
